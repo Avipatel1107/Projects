@@ -1,1 +1,15 @@
-
+1. Locate the package Final and open/download the zip file
+2. Navigate to the src folder
+3. Once found open all .java files
+4. Once all java files are open there should be a total of 17 java classes,Locate
+   the interface.java class and open it
+5. Once the interface.java file is open there should be a green triangle run/execute
+   code button on the top right or beside the public static void main method
+6. Note: To run this game a Big enough screen is needed to run the game as
+   when it is executed the white pieces are not shown so please try to run it
+   on a screen at least 18 inches. sorry for inconvenience.
+7. Once the button is pressed the Intellij terminal should pop up and display
+   a option player displaying a difficulty level and 3 options Player(black) vs
+   Computer, Player(White) vs AI, Player vs Player.
+8. Select the items from control panel and click start, once done a new chess
+   board should appear with pieces placed and game can start
