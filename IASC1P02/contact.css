@@ -1,0 +1,132 @@
+Body{
+background-color:#D6EFFF	
+
+}
+.header img{
+margin-top:-35px;
+Width:150px;
+Height:150px;
+Border:5px solid black;
+Float:left;
+}
+H1{
+font-size:70px;
+text-align:center;
+Font-family:myFirstFont;
+Color:crimson;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #242442;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: crimson;
+}
+.footer { 
+position: fixed; 
+bottom: 0pt; 
+left: 0pt; 
+background-color: cyan; 
+}
+
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_input_navbar Accessed:29 Nov 2020*/
+.bar .search-container button:hover {
+  background: #ccc;
+}
+
+.bar .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: -39px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.bar .search-container {
+  float: right;
+}
+
+.bar input[type=text] {
+  padding: 6px;
+  margin-top: -39px;
+  font-size: 17px;
+  border: none;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(pal.ttf);
+}
+
+h2{
+font-size:50px;
+Text-decoration:underline;
+Text-align:center;
+Color:crimson;
+}
+
+
+.in input[type=text], select, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.in input[type=submit] {
+  background-color: #140369;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.in input[type=submit]:hover {
+  background-color: #0636a6;
+}
+
+.in {
+  width: 550px;
+   margin-left: 350px;
+  border-radius: 5px;
+  background-color: crimson;
+  padding: 5px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#clock{
+font-size: 30px;
+float:right;
+position: absolute;
+    right:10px;
+    top:10px;
+    
+}

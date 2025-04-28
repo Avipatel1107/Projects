@@ -1,0 +1,299 @@
+Body{
+background-color:#D6EFFF;	
+
+}
+.header img{
+margin-top:-35px;
+Width:150px;
+Height:150px;
+Border:5px solid black;
+Float:left;
+}
+H1{
+font-size:70px;
+text-align:center;
+Font-family:myFirstFont;
+Color:crimson;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #242442;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: crimson;
+}
+.footer { 
+position: fixed; 
+bottom: 0pt; 
+left: 0pt; 
+background-color: cyan; 
+}
+
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_input_navbar Accessed:29 Nov 2020*/
+.bar .search-container button:hover {
+  background: #ccc;
+}
+
+.bar .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: -39px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.bar .search-container {
+  float: right;
+}
+
+.bar input[type=text] {
+  padding: 6px;
+  margin-top: -39px;
+  font-size: 17px;
+  border: none;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(pal.ttf);
+}
+
+
+#products li {
+
+	float: left;
+
+	width: 31%;
+
+	margin: 0 1%;
+
+	display: block;
+
+}
+
+
+
+.product-image  img{
+margin-top:10px;
+	margin-left:120px;
+
+	background: #000;
+
+	width: 150px;
+
+	height: 150px;
+
+	overflow: hidden;
+
+	border-radius: 50%;
+
+	
+
+}
+
+
+
+.product-description {
+
+    margin-top:10px;
+	padding: 1em;
+
+	background: #000;
+
+	color: #ff0066;
+
+	border-radius: 5px;
+
+}
+
+
+
+.product-name {
+
+	text-align: center;
+
+	color: crimson;
+
+	margin: 0;
+
+	font-size: 1.4em;
+
+	padding-bottom: 0.2em;
+
+	border-bottom: 1px dotted #666;
+
+	text-transform: uppercase;
+
+	letter-spacing: 0.1em;
+
+}
+
+
+
+.product-price {
+
+	width: 4em;
+
+	height: 4em;
+
+	font-size: 1.2em;
+
+	text-align: center;
+
+	margin: 1em auto;
+
+	background: crimson;
+
+	color: white;
+
+	line-height: 4;
+
+	border-radius: 50%;
+
+}
+
+
+.btn, a.btn {
+
+	display: inline-block;
+
+	background: crimson;
+
+	color: white;
+
+	padding: 0.3em 1em;
+
+	text-align: center;
+
+	border-radius: 4px;
+
+	border: 1px solid #a00;
+
+}
+
+h3,h4{
+Font-size:50px;
+Text-decoration:underline;
+Text-align:center;
+Color: crimson;
+}
+
+.dark-mode{
+  background-color: black;
+  color: crimson;
+}
+
+#clock{
+font-size: 30px;
+float:right;
+position: absolute;
+    right:10px;
+    top:10px;
+    
+}
+
+
+.slideshow-container {
+    max-width: 300px;
+    position: relative;
+    margin: auto
+}
+
+.mySlides {
+    display: none;
+  height: 400px;
+  border: solid 1px black;
+     
+}
+
+.mySlides img{
+Width:298px;
+Height: 360px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #222428;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0
+}
+
+.next {
+    right: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev {
+    left: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev:hover,
+.next:hover {
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding-top: 12px;
+  padding-bottom: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222428
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color .6s ease
+}
+
+.active,
+.dot:hover {
+    background-color: #717171
+}

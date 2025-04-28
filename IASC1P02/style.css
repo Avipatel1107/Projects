@@ -1,0 +1,185 @@
+Body{
+background-color:#D6EFFF	
+
+}
+.header img{
+margin-top:-35px;
+Width:150px;
+Height:150px;
+Border:5px solid black;
+Float:left;
+}
+H1{
+font-size:70px;
+text-align:center;
+Font-family:myFirstFont;
+Color:crimson;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #242442;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: crimson;
+}
+
+.footer { 
+position: fixed; 
+bottom: 0pt; 
+left: 0pt; 
+background-color: cyan; 
+}
+
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_input_navbar Accessed:29 Nov 2020*/
+.bar .search-container button:hover {
+  background: #ccc;
+}
+
+.bar .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: -39px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.bar .search-container {
+  float: right;
+}
+
+.bar input[type=text] {
+  padding: 6px;
+  margin-top: -39px;
+  font-size: 17px;
+  border: none;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(pal.ttf);
+}
+H2,h3,h4,h5,h6{
+font-size:24px;
+Color:crimson;
+Text-decoration:underline;
+Text-align:center;
+}
+
+Section{
+Font-size:20px;
+}
+.messi img{
+Float:right;
+    width:250px;
+    height:250px;
+    margin-top:6px;
+    margin-right: 15px;
+}
+
+.ronaldo img{
+Float:left;
+    width:250px;
+    height:250px;
+    margin-top:-1px;
+    margin-right: 15px;
+}
+
+H8{
+Font-size:50px;
+Color:#242442;
+Text-decoration:underline;
+Text-align:center;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+#clock{
+font-size: 30px;
+float:right;
+position: absolute;
+    right:10px;
+    top:10px;
+    
+}
+
+
+.open-button {
+  background-color: crimson;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
