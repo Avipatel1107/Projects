@@ -1,1 +1,51 @@
+COEXISTENCE
+A Strategic Card Game of Attack and Defense
 
+OVERVIEW
+CoExistence is a strategic card game where two players battle using different unit types. While simple to learn, it requires careful strategic thinking as players must decide which units to deploy against their opponent's forces to gain glory points.
+GAME UNITS
+
+Axe: Cuts through the handle of the hammer, securing one point of glory
+Hammer: Overwhelms the sword with its power, securing one point of glory
+Sword: Dances about the axe, striking its wielder and securing one point of glory
+Arrow: Can eliminate any other unit, but earns no glory. Any other unit can similarly defeat it, but again earning no glory
+
+GAME COMPONENTS
+
+A standard CoExistence deck consists of 12 cards: 4 axes, 4 hammers, and 4 swords
+
+SETUP
+
+Shuffle the deck
+Deal 6 cards to each player
+Randomly determine the starting player for the first round
+
+GAMEPLAY
+
+Players take turns choosing a unit to perform an attack and a target unit owned by the opponent
+Only killing blows are permitted (you must follow the rules of which unit can defeat which):
+
+Axe defeats Hammer
+Hammer defeats Sword
+Sword defeats Axe
+Arrow defeats any unit (no glory)
+Any unit defeats Arrow (no glory)
+
+
+A player may pass on their turn, and must pass if unable to defeat any enemy units
+A round ends when both players consecutively pass (voluntarily or by necessity)
+After a round ends, the deck is reshuffled and 6 new cards are dealt to each player for the next round
+
+WINNING THE GAME
+The game can end in two ways:
+
+Victory: One player reaches 9 glory points
+Draw: The game reaches the end of round 5 with neither player achieving 9 points (both players lose)
+
+PLAYER TURNS
+On your turn, you may:
+
+Choose one of your units to attack an eligible opponent's unit
+Pass your turn
+
+Remember that you can only make legal attacks - the unit you choose must be able to defeat the target according to the rules.
